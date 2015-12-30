@@ -1,0 +1,34 @@
+{
+  "name": "methodscrape",
+  "version": "0.0.0",
+  "description": "GH scraping",
+  "homepage": "",
+  "author": {
+    "name": "Timo Herttua",
+    "email": "a.b@c.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "repository": "/methodscrape",
+  "devDependencies": {
+    "x-ray": "^2.0.0",
+    "x-ray-phantom": "^1.0.0",
+    "striptags": "^2.0.4",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "private": true
+}
